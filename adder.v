@@ -1,0 +1,12 @@
+// Maclean Dunkin
+module adder(
+    input A,
+    input B,
+    output Y,
+    output carry
+);
+
+    assign Y = A ^ B;
+    assign carry = A & B;
+
+endmodule
